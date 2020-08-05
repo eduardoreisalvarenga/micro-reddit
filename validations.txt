@@ -15,3 +15,11 @@ posts validations
   post body should have a maximum length of 300 chars
   post should have a user id
 
+
+comments validation
+  comments should be valid 
+  comments should have user_name
+  comments can't be empty
+  comments should be attached to a post/a comment can't exist if there's no post
+  
+  
