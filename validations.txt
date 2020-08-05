@@ -1,0 +1,12 @@
+users validations
+user_name => Shall be present 
+user_name => Shall be unique
+users => Should be valid 
+user_name_length => should be a minimun of 4 && maximum of 15
+email => should be present && should be email format
+
+
+
+
+
+
