@@ -1,12 +1,17 @@
 users validations
-user_name => Shall be present 
-user_name => Shall be unique
-users => Should be valid 
-user_name_length => should be a minimun of 4 && maximum of 15
-email => should be present && should be email format
+  user_name => Shall be present 
+  user_name => Shall be unique
+  users => Should be valid 
+  user_name_length => should be a minimun of 4 && maximum of 15
+  email => should be present && should be email format
 
-
-
-
-
+posts validations 
+  post should be valid
+  post title must be present
+  post body must be present
+  post title should have a minimum length of 10 chars
+  post title should be a maximum of 50 chars
+  post body should have a minim length of 30 chars
+  post body should have a maximum length of 300 chars
+  post should have a user id
 
