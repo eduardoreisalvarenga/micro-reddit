@@ -1,7 +1,6 @@
 require 'test_helper'
 
 class PostTest < ActiveSupport::TestCase
-
   def setup
     user = User.create(user_name: 'moses', email: 'moses@example.com')
     @post = user.posts.build(title: 'Thor God of thunder', body: 'x' * 200)
@@ -45,5 +44,4 @@ class PostTest < ActiveSupport::TestCase
     @post.user_id = nil
     assert_not @post.valid?
   end
-
 end
