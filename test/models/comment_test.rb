@@ -4,15 +4,15 @@ class CommentTest < ActiveSupport::TestCase
   def setup
     user = User.create(user_name: 'Edwardo', email: 'edwardo@example.com')
     post = user.posts.create(title: 'Thor God of thunder', body: 'x' * 200)    
-    @comment = post.comments.build(user_name: user.user_name, comment: 'A comment goes here')
+    @comment = post.comments.create(comment: 'A comment goes here', user_id: user.id)
   end
 
-  test 'should be balid' do
+  test 'comment should be valid' do
     assert @comment.valid?
   end
 
-  test 'should have user name' do 
-    @comment.user_name = nil
+  test 'comment should have user id' do 
+    @comment.user_id = nil
     assert_not @comment.valid?
   end
 
