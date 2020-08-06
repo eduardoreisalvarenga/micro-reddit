@@ -1,6 +1,6 @@
 # Blogger App
 
-> A minimalist copy of reddit, micro-reddit
+> A minimalist copy of reddit, micro-reddit. This project aims to build some of reddit functionalities
 
 ## Built with
 
