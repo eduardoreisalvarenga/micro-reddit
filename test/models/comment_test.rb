@@ -3,7 +3,7 @@ require 'test_helper'
 class CommentTest < ActiveSupport::TestCase
   def setup
     user = User.create(user_name: 'Edwardo', email: 'edwardo@example.com')
-    post = user.posts.create(title: 'Thor God of thunder', body: 'x' * 200)    
+    post = user.posts.create(title: 'Thor God of thunder', body: 'x' * 200)
     @comment = post.comments.create(comment: 'A comment goes here', user_id: user.id)
   end
 
@@ -11,7 +11,7 @@ class CommentTest < ActiveSupport::TestCase
     assert @comment.valid?
   end
 
-  test 'comment should have user id' do 
+  test 'comment should have user id' do
     @comment.user_id = nil
     assert_not @comment.valid?
   end
@@ -22,12 +22,12 @@ class CommentTest < ActiveSupport::TestCase
   end
 
   test 'comment should be at least 5 characters ' do
-    @comment.comment = "xxxx"
+    @comment.comment = 'xxxx'
     assert_not @comment.valid?
   end
 
   test 'comment should be at maximum 300 characters' do
-    @comment.comment = "x" * 301
+    @comment.comment = 'x' * 301
     assert_not @comment.valid?
   end
 
