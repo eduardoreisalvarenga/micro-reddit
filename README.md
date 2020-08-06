@@ -1,6 +1,6 @@
 # Blogger App
 
-> This is a micro-reddit app. A minimalist copy of reddit
+> A minimalist copy of reddit, micro-reddit
 
 ## Built with
 
