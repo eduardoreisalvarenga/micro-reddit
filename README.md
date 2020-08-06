@@ -1,24 +1,38 @@
-# README
+# Blogger App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> This is a micro-reddit app. A minimalist copy of reddit
 
-Things you may want to cover:
+## Built with
 
-* Ruby version
+- Major language: Ruby.
+- Frameworks: Rails.
+- Techonologies used: This project was built using Ruby on Rails.
 
-* System dependencies
+## Getting started
 
-* Configuration
+** This set of instructions is designed to be used in linux systems. **
 
-* Database creation
+To get a local copy up and running you just need to clone this repo, and delete the file /db/development.sqlite3
+After you delete the file, just run rails db:migrate and you are ready to go.<br/>
+** You will need to use ruby 2.7.0 && rails 5.2.3 to avoid conclicts **
 
-* Database initialization
 
-* How to run the test suite
+## Authors
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 **Eduardo**
 
-* Deployment instructions
+- Github: [@githubhandle](https://github.com/eduardoreisalvarenga)
+- Twitter: [@twitterhandle](https://twitter.com/eduardodosrei11)
+- Linkedin: [linkedin](https://www.linkedin.com/in/eduardo-alvarenga-44204818a/)
 
-* ...
+
+👤 **Oloo Moses**
+
+- Github: [@githubhandle](https://github.com/oloomoses) 
+- Twitter: [@twitterhandle](https://twitter.com/olooine)
+- Linkedin: [linkedin](https://www.linkedin.com/in/oloo-moses-528bb1b3/)
+
+
+## License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
