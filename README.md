@@ -11,16 +11,7 @@ The goal of this project is to build a simplified version of reddit, putting to 
 - frameworks: Rails
 - technologies used: Rubocop, Capybara
 
-## Getting Started
-
-**This project was tested using ruby 2.7.0 && rails 5.2.3**
-
-
-**To have this project up and running on your machine, make sure to have the right rails and ruby versions, after that
-you just need to clone this repo, delete sqlite3 file. Run bundle install and it should work**
-
-
-To get a local copy up and running follow these simple example steps.
+## To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 ruby version 2.7.0
