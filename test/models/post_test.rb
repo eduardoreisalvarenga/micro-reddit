@@ -16,7 +16,7 @@ class PostTest < ActiveSupport::TestCase
   end
 
   test 'post title should have a minimum length of 10 characters' do
-    @post.title = 'x' * 9
+    @post.title = 'xxx'
     assert_not @post.valid?
   end
 
@@ -31,7 +31,7 @@ class PostTest < ActiveSupport::TestCase
   end
 
   test 'post body should have a minimum of 30 characters' do
-    @post.body = 'x' * 29
+    @post.body = 'xxxx'
     assert_not @post.valid?
   end
 
