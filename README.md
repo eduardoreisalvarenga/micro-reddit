@@ -7,14 +7,14 @@ It allows;
     > users to add comments to a post
     
 ## Validations
-    #### users validations
+   #### users validations
       > user_name => Shall be present 
       > user_name => Shall be unique
       > users => Should be valid 
       > user_name_length => should be a minimun of 4 && maximum of 15
       > email => should be present && should be email format
 
-    #### posts validations 
+   #### posts validations 
       > post should be valid
       > post title must be present
       > post body must be present
@@ -25,7 +25,7 @@ It allows;
       > post should have a user id
 
 
-    #### comments validation
+   #### comments validation
       > comments should be valid 
       > comments should have user_id
       > comments can't be empty
@@ -66,11 +66,14 @@ rails s
 Run the rails console with `rails c` command
 #### Creating new user
   `u1 = User.create(user_name: 'provide the username', email: 'user@example.com')`
-### Creating post
+#### Creating post
   `post1 = u1.posts.create(title: 'the title of the post', body: 'the body goes here')`
 
-### Adding comments
+#### Adding comments
   `comment1 = post1.comments.create(comment: 'this is the comment', user_id: 1)`
+  
+## Testing
+  Run `rails test`
 
 ## Authors
 
