@@ -23,11 +23,15 @@ git clone git@github.com:eduardoreisalvarenga/micro-reddit.git
 ```console
 cd micro-reddit
 ```
-3. run bundle to install all gems
+3. Update local database
+```console
+git checkout feature1
+```
+4. run bundle to install all gems
 ```console 
 bundle install
 ```
-4. Update local database
+5. Update local database
 ```console
 rails db:migrate
 ```
