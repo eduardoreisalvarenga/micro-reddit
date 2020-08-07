@@ -1,9 +1,9 @@
 # micro-reddit
 The purpose of this project is to implement the backend logic of the reddit website, a mini version of reddit called micro-reddit. 
 It allows;
-        - creation users
-        - users to create a post or many posts
-        - users to add comments to a post
+- creation users
+- users to create a post or many posts
+- users to add comments to a post
 
 ## Built With
 - Major languages: Ruby 2.7.0
